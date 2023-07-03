@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "coders-template",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,10 +11,12 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@fontsource/pirata-one": "^5.0.1",
     "@reduxjs/toolkit": "^1.9.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-redux": "^8.0.5"
+    "react-redux": "^8.0.5",
+    "styled-components": "^6.0.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.1",

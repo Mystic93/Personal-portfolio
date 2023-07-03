@@ -2,13 +2,16 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./components/App/App";
 import "./index.css";
-import { Provider } from "react-redux";
-import { store } from "./store";
+import "@fontsource/pirata-one";
+import GlobalStyle from "./styles/GlobalStyles";
+import { ThemeProvider } from "styled-components";
+import theme from "./styles/theme/theme";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <Provider store={store}>
+    <ThemeProvider theme={theme}>
       <App />
-    </Provider>
+      <GlobalStyle />
+    </ThemeProvider>
   </React.StrictMode>
 );
