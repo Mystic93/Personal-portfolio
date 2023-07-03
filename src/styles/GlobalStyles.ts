@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import "@fontsource/pirata-one";
 
 const GlobalStyle = createGlobalStyle`
 
@@ -14,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     margin: 0;
-    
+    font-family: "Pirata One",cursive;
   }
 
   h1,
