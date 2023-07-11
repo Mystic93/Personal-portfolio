@@ -1,4 +1,4 @@
-import MainPage from "../../pages/MainPage";
+import MainPage from "../../pages/MainPage/MainPage";
 
 const App = (): React.ReactElement => {
   return <MainPage />;

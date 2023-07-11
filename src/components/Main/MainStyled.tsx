@@ -6,6 +6,7 @@ export const MainStyled = styled.div`
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
+  background-color: ${(props) => props.theme.colors.dark};
 
   .hero {
     width: 100%;
@@ -24,10 +25,14 @@ export const MainStyled = styled.div`
       }
       &__name {
         margin-top: 0;
-        margin-bottom: 0;
+        margin-bottom: 10px;
         font-size: 2rem;
-        color: ${(props) => props.theme.colors.dark};
+        color: ${(props) => props.theme.colors.light};
       }
     }
+  }
+
+  .bio-profile-picture {
+    border-radius: 30%;
   }
 `;
