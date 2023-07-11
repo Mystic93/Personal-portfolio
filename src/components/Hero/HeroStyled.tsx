@@ -24,6 +24,7 @@ export const HeroStyled = styled.div`
 
   .hero_picture {
     border-radius: 20%;
+    padding: 20px;
   }
 `;
 
