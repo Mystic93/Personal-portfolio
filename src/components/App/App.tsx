@@ -1,5 +1,7 @@
+import Main from "../Main/Main";
+
 const App = (): React.ReactElement => {
-  return <p>In development...</p>;
+  return <Main />;
 };
 
 export default App;
