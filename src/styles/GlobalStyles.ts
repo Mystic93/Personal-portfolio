@@ -16,6 +16,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     font-family: "Pirata One",cursive;
+  
   }
 
   h1,
