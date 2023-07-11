@@ -1,24 +1,33 @@
 import { styled } from "styled-components";
 
 export const MainStyled = styled.div`
+  padding: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  overflow: hidden;
 
-  @keyframes blink {
-    50% {
-      color: transparent;
+  .hero {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &-headings {
+      display: flex;
+      flex-direction: column;
+      &__presentation {
+        color: ${(props) => props.theme.colors.bluesky};
+        margin-bottom: 0;
+        font-size: 2rem;
+        align-self: center;
+      }
+      &__name {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 2rem;
+        color: ${(props) => props.theme.colors.dark};
+      }
     }
-  }
-  .loading-dot {
-    animation: 1s blink infinite;
-  }
-  .loading-dot:nth-child(2) {
-    animation-delay: 250ms;
-  }
-  .loading-dot:nth-child(3) {
-    animation-delay: 500ms;
   }
 `;
