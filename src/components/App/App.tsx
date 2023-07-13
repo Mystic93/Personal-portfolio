@@ -1,5 +1,7 @@
+import MainPage from "../../pages/MainPage/MainPage";
+
 const App = (): React.ReactElement => {
-  return <p>In development...</p>;
+  return <MainPage />;
 };
 
 export default App;
