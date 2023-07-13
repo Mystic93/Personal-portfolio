@@ -1,9 +1,13 @@
 import { styled } from "styled-components";
 
-export const HeroStyled = styled.div`
+export const HeroStyled = styled.section`
   padding: 30px;
-
+  background-color: ${(props) => props.theme.colors.dark};
   min-height: 100vh;
+
+  .hero {
+    padding-top: 50px;
+  }
 
   .hero_subheading {
     color: ${(props) => props.theme.colors.yellow};

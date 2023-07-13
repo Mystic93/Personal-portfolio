@@ -7,6 +7,7 @@ export const AboutStyled = styled.section`
   padding: 30px;
   flex-direction: column;
   height: 100vh;
+  margin-bottom: 580px;
 
   .about_title {
     text-align: center;
@@ -22,6 +23,19 @@ export const AboutStyled = styled.section`
     font-size: 1.8rem;
     font-weight: 500;
     margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .about_education {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+  }
+  .about-education__info {
+    display: flex;
+    flex-direction: column;
   }
 
   .about_icon-container {
@@ -34,12 +48,17 @@ export const AboutStyled = styled.section`
     justify-content: center;
   }
 
+  .about-education__titulation {
+    color: ${(props) => props.theme.colors.yellow};
+  }
+
   .about_article {
     text-align: left;
     color: ${(props) => props.theme.colors.dark};
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
+    padding: 10px;
   }
   .hero_picture {
     border-radius: 20%;

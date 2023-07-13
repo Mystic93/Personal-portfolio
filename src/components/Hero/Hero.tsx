@@ -2,8 +2,8 @@ import { HeroStyled, Name, Dot } from "./HeroStyled";
 
 const Hero = (): React.ReactElement => {
   return (
-    <>
-      <HeroStyled>
+    <HeroStyled>
+      <div className="hero">
         <p className="hero_subheading">Hi, I am</p>
         <Name className="hero_name">
           Pol Gil Usieto<Dot>.</Dot>
@@ -14,8 +14,8 @@ const Hero = (): React.ReactElement => {
           I am a software engineer, who loves to find new ways of solving
           problems while building great digital experiences.
         </p>
-      </HeroStyled>
-    </>
+      </div>
+    </HeroStyled>
   );
 };
 

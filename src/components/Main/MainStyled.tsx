@@ -5,5 +5,4 @@ export const MainStyled = styled.div`
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  background-color: ${(props) => props.theme.colors.dark};
 `;
