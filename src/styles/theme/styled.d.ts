@@ -10,6 +10,7 @@ declare module "styled-components" {
       dark: string;
       title: string;
       bluesky: string;
+      aboutBlue: string;
     };
 
     fonts: {

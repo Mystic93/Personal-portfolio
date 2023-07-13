@@ -10,6 +10,7 @@ const theme: DefaultTheme = {
     dark: "#000000",
     title: " #A41414",
     bluesky: "#55b5fa",
+    aboutBlue: "rgb(61, 90, 128)",
   },
 
   fonts: {
