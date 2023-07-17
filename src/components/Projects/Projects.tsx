@@ -1,9 +1,16 @@
 import { ProjectsStyled } from "./ProjectsStyled";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Projects = (): React.ReactElement => {
+  useEffect(() => {
+    Aos.init({ duration: 1000, easing: "ease-in-out-cubic", once: true });
+  }, []);
+
   return (
     <ProjectsStyled>
-      <div className="projects-container">
+      <div className="projects-container" data-aos="zoom-in">
         <h1 className="projects-title">Currently working on</h1>
         <h2>Pirate Haven</h2>
         <article className="projects-article">
