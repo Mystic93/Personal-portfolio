@@ -15,6 +15,7 @@ const theme: DefaultTheme = {
 
   fonts: {
     primary: "Pirata One",
+    secondary: "Poppins",
   },
 };
 
