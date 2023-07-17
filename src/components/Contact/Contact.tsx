@@ -1,16 +1,25 @@
+import Aos from "aos";
 import { ContactStyled } from "./ContactStyled";
+import { useEffect } from "react";
 
 const Contact = (): React.ReactElement => {
+  useEffect(() => {
+    Aos.init({ duration: 1000, easing: "ease-in-out-cubic", once: true });
+  }, []);
   return (
     <ContactStyled>
       <div className="contact-container">
-        <h1 className="contact-container__title">Contact</h1>
+        <h1 className="contact-container__title" data-aos="fade-left">
+          Contact
+        </h1>
         <article className="contact-article">
-          <p className="contact-article__presentation">
+          <p className="contact-article__presentation" data-aos="fade-left">
             I’m always looking for new oportunities. Whether you want to say hi
             or have a question. My inbox is always open.
           </p>
-          <button className="contact-article__button">Get in touch</button>
+          <button className="contact-article__button" data-aos="zoom-in">
+            Get in touch
+          </button>
           <img
             className="contact-article__logo"
             src="./images/techicons/linkedin-logo.svg"
