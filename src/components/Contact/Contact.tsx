@@ -1,6 +1,7 @@
 import Aos from "aos";
 import { ContactStyled } from "./ContactStyled";
 import { useEffect } from "react";
+import Button from "../Button/Button";
 
 const Contact = (): React.ReactElement => {
   useEffect(() => {
@@ -17,9 +18,12 @@ const Contact = (): React.ReactElement => {
             I’m always looking for new oportunities. Whether you want to say hi
             or have a question. My inbox is always open.
           </p>
-          <button className="contact-article__button" data-aos="zoom-in">
-            Get in touch
-          </button>
+
+          <Button
+            className="contact-article__button"
+            text="Get in touch"
+            dataAos="zoom-in"
+          />
           <img
             className="contact-article__logo"
             src="./images/techicons/linkedin-logo.svg"
