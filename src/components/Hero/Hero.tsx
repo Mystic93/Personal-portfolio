@@ -1,13 +1,17 @@
 import Aos from "aos";
 import { HeroStyled, Name, Dot } from "./HeroStyled";
 import { useEffect } from "react";
+import BurgerMenu from "../BurgerMenu/BurgerMenu";
 
 const Hero = (): React.ReactElement => {
   useEffect(() => {
     Aos.init({ duration: 1000, easing: "ease-in-out-cubic", once: true });
   }, []);
+
   return (
     <HeroStyled>
+      <BurgerMenu />
+
       <div className="hero">
         <p data-aos="fade-down" className="hero_subheading">
           Hi, I am

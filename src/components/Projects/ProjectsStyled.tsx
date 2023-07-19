@@ -8,6 +8,7 @@ export const ProjectsStyled = styled.section`
   width: 100%;
   align-items: center;
   background-color: ${(props) => props.theme.colors.dark};
+  min-width: 100vh;
 
   .projects-title {
     color: ${(props) => props.theme.colors.bluesky};
