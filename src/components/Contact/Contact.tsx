@@ -23,14 +23,17 @@ const Contact = (): React.ReactElement => {
             className="contact-article__button"
             text="Get in touch"
             dataAos="zoom-in"
+            onClick={() => window.open("mailto:polgil24@hotmail.com")}
           />
-          <img
-            className="contact-article__logo"
-            src="./images/techicons/linkedin-logo.svg"
-            alt="Linkedin icon"
-            width={70}
-            height={70}
-          />
+          <a href="https://www.linkedin.com/in/pol-gil-usieto-5b9324280/">
+            <img
+              className="contact-article__logo"
+              src="./images/techicons/linkedin-logo.svg"
+              alt="Linkedin icon"
+              width={70}
+              height={70}
+            />
+          </a>
         </article>
         <p className="closing-info">
           {" "}

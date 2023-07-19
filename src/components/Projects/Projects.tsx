@@ -22,19 +22,22 @@ const Projects = (): React.ReactElement => {
           />
 
           <div className="projects-container__logos">
-            <img
-              src="./images/techicons/github-orange.svg"
-              alt="Github logo"
-              height={50}
-              width={50}
-            />
-
-            <img
-              src="./images/techicons/web-orange.svg"
-              alt="Website logo"
-              height={50}
-              width={50}
-            />
+            <a href="https://github.com/Mystic93/PirateHaven-front">
+              <img
+                src="./images/techicons/github-orange.svg"
+                alt="Github logo"
+                height={50}
+                width={50}
+              />
+            </a>
+            <a href="https://pol-usieto-final-project-front-2023.netlify.app/pirates">
+              <img
+                src="./images/techicons/web-orange.svg"
+                alt="Website logo"
+                height={50}
+                width={50}
+              />
+            </a>
           </div>
 
           <span className="projects-article__info">For One Piece fans</span>
@@ -56,13 +59,15 @@ const Projects = (): React.ReactElement => {
       <article className="github-container">
         <h2>Looking for more?</h2>
         <span className="github-container__info">Check out my GitHub!</span>
-        <img
-          className="github-container__icon"
-          src="./images/techicons/github-orange.svg"
-          alt="Github logo"
-          height={50}
-          width={50}
-        />
+        <a href="https://github.com/Mystic93">
+          <img
+            className="github-container__icon"
+            src="./images/techicons/github-orange.svg"
+            alt="Github logo"
+            height={50}
+            width={50}
+          />
+        </a>
       </article>
     </ProjectsStyled>
   );

@@ -30,6 +30,7 @@ export const ProjectsStyled = styled.section`
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
     &__info {
       color: ${(props) => props.theme.colors.yellow};
       font-size: 1.4rem;
