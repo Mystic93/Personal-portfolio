@@ -7,6 +7,7 @@ interface ButtonProps {
   className?: string;
   onClick?: () => void;
   dataAos?: string;
+  children?: React.ReactElement;
 }
 
 const Button = ({
@@ -14,6 +15,7 @@ const Button = ({
   className,
   onClick,
   dataAos,
+  children,
 }: ButtonProps): React.ReactElement => {
   useEffect(() => {
     Aos.init({ duration: 1000, easing: "ease-in-out-cubic", once: true });
@@ -22,6 +24,7 @@ const Button = ({
   return (
     <ButtonStyled data-aos={dataAos} className={className} onClick={onClick}>
       {text}
+      {children}
     </ButtonStyled>
   );
 };

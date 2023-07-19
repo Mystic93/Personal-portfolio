@@ -11,13 +11,13 @@ const About = (): React.ReactElement => {
   return (
     <AboutStyled className="about">
       <section>
-        <h1 className="about_title" data-aos="fade-left">
+        <h1 className="about_title" data-aos="fade-right" data-aos-offset="300">
           About me
         </h1>
         <article
           className="about_article"
-          data-aos="fade-left"
-          data-aos-offset="200"
+          data-aos="fade-right"
+          data-aos-offset="300"
         >
           I love to create new ways of solving problems, taking advantage of my
           resolutive skills.
