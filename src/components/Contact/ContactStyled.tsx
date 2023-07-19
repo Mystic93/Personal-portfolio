@@ -34,13 +34,17 @@ export const ContactStyled = styled.section`
 
     &__button {
       background-color: ${(props) => props.theme.colors.yellow};
-      border-radius: 15%;
-      padding: 5px;
+      padding: 0px;
       padding-left: 15px;
       padding-right: 15px;
+      margin-top: 15px;
       display: flex;
       margin: 0 auto;
       margin-bottom: 30px;
+      width: 130px;
+      height: 40px;
+      justify-content: center;
+      align-items: center;
     }
   }
 
