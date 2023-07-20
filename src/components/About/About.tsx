@@ -19,8 +19,9 @@ const About = (): React.ReactElement => {
           data-aos="fade-right"
           data-aos-offset="300"
         >
-          I love to create new ways of solving problems, taking advantage of my
-          resolutive skills.
+          I am enthusiastic about exploring inventive problem-solving
+          techniques, leveraging strong analytical skills to overcome challenges
+          with creativity.
         </article>
 
         <article
@@ -28,8 +29,8 @@ const About = (): React.ReactElement => {
           data-aos-offset="300"
           data-aos="fade-left"
         >
-          With testing as my main strategy, I consider myself a clean code
-          advocate, with special attention to maintainability and scalability.
+          With a focus on testing and clean code principles, I prioritize
+          maintainability and scalability in all my projects..
         </article>
 
         <img

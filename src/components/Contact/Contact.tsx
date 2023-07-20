@@ -15,8 +15,9 @@ const Contact = (): React.ReactElement => {
         </h1>
         <article className="contact-article">
           <p className="contact-article__presentation" data-aos="fade-left">
-            I’m always looking for new oportunities. Whether you want to say hi
-            or have a question. My inbox is always open.
+            I am always on the lookout for exciting opportunities. Whether you
+            want to say hello or have any questions, my inbox is open and ready
+            to connect.
           </p>
 
           <Button
@@ -38,7 +39,7 @@ const Contact = (): React.ReactElement => {
         <p className="closing-info">
           {" "}
           <span>Built</span> and
-          <span> designed</span> by Pol Gil Usieto
+          <span> designed</span> by Pol Gil
         </p>
       </div>
     </ContactStyled>

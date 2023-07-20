@@ -14,13 +14,14 @@ const Projects = (): React.ReactElement => {
         <h1 className="projects-title">Currently working on</h1>
         <h2>Pirate Haven</h2>
         <article className="projects-article">
-          <img
-            className="projects-article__picture"
-            src="./images/PirateHaven.PNG"
-            alt="App view"
-            height={300}
-          />
-
+          <a href="https://pol-usieto-final-project-front-2023.netlify.app/pirates">
+            <img
+              className="projects-article__picture"
+              src="./images/PirateHaven.PNG"
+              alt="App view"
+              height={300}
+            />
+          </a>
           <div className="projects-container__logos">
             <a href="https://github.com/Mystic93/PirateHaven-front">
               <img
@@ -40,19 +41,20 @@ const Projects = (): React.ReactElement => {
             </a>
           </div>
 
+          <span className="projects-article__info">Clean code</span>
           <span className="projects-article__info">For One Piece fans</span>
           <span className="projects-article__info">
-            Clean, tested and mainteinable code
+            Tested and mainteinable
           </span>
           <span className="projects-article__info">
-            CRUD built with React and TypeScript
+            CRUD with React and TypeScript
           </span>
           <span className="projects-article__info">
             State management with redux
           </span>
           <span className="projects-article__info">Continuous integration</span>
-          <span className="projects-article__info">Material UI</span>
           <span className="projects-article__info">User auth via JWT</span>
+          <span className="projects-article__info">Material UI</span>
         </article>
       </div>
 
