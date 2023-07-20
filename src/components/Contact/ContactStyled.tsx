@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContactStyled = styled.section`
-  background-color: white;
+  background-color: ${(props) => props.theme.colors.lightBackground};
   min-height: 100vh;
   width: 100%;
   display: flex;
@@ -17,6 +17,11 @@ export const ContactStyled = styled.section`
     font-size: 1.8rem;
     font-weight: 500;
     padding: 20px;
+  }
+
+  img {
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
 
   .contact-article {
@@ -40,11 +45,11 @@ export const ContactStyled = styled.section`
       margin-top: 15px;
       display: flex;
       margin: 0 auto;
-      margin-bottom: 30px;
       width: 130px;
       height: 40px;
       justify-content: center;
       align-items: center;
+      font-size: 15px;
     }
   }
 

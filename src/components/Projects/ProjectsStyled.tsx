@@ -7,19 +7,20 @@ export const ProjectsStyled = styled.section`
   min-height: 100vh;
   width: 100%;
   align-items: center;
-  background-color: ${(props) => props.theme.colors.dark};
+  background-color: ${(props) => props.theme.colors.darkBackground};
   min-width: 100vh;
 
   .projects-title {
-    color: ${(props) => props.theme.colors.bluesky};
+    color: ${(props) => props.theme.colors.primaryText};
     text-align: center;
     font-size: 1.8rem;
     font-weight: 500;
     margin-bottom: 20px;
+    width: 297px;
   }
 
   h2 {
-    color: ${(props) => props.theme.colors.yellow};
+    color: ${(props) => props.theme.colors.secondaryText};
     font-size: 1.4rem;
     padding-bottom: 20px;
     display: flex;
@@ -32,7 +33,7 @@ export const ProjectsStyled = styled.section`
     text-align: center;
     align-items: center;
     &__info {
-      color: ${(props) => props.theme.colors.yellow};
+      color: ${(props) => props.theme.colors.secondaryText};
       font-size: 1.4rem;
     }
     &__icon {
@@ -43,7 +44,7 @@ export const ProjectsStyled = styled.section`
   }
 
   .projects-article {
-    color: ${(props) => props.theme.colors.bluesky};
+    color: ${(props) => props.theme.colors.primaryText};
     display: flex;
     align-items: center;
     flex-direction: column;

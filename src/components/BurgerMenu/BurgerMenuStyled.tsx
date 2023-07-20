@@ -13,7 +13,7 @@ export const MenuButton = styled.div`
   div {
     width: 30px;
     height: 3px;
-    background-color: ${(props) => props.theme.colors.light};
+    background-color: ${(props) => props.theme.colors.primaryText};
   }
 `;
 
@@ -30,12 +30,12 @@ export const MenuLinks = styled.div<{ open: boolean }>`
   height: ${({ open }) => (open ? "250px" : "0")};
   transition: height 0.3s ease-in-out;
   overflow: hidden;
-  background-color: ${(props) => props.theme.colors.yellow};
+  background-color: ${(props) => props.theme.colors.lightBackground};
   z-index: 1;
   border-radius: 5px;
   a {
     text-decoration: none;
-    color: ${(props) => props.theme.colors.light};
+    color: ${(props) => props.theme.colors.aboutBlue};
     padding: 10px 0;
     transition: color 0.2s;
 
@@ -45,5 +45,6 @@ export const MenuLinks = styled.div<{ open: boolean }>`
   }
   .burger-button {
     margin-top: 10px;
+    background-color: ${(props) => props.theme.colors.darkBackground};
   }
 `;

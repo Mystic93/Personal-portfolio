@@ -1,13 +1,12 @@
 import styled from "styled-components";
 
 export const AboutStyled = styled.section`
-  background-color: ${(props) => props.theme.colors.light};
+  background-color: ${(props) => props.theme.colors.lightBackground};
   display: flex;
   flex-direction: column;
   padding: 30px;
   flex-direction: column;
-  height: 100vh;
-  margin-bottom: 580px;
+  min-height: 100vh;
 
   .about_title {
     text-align: center;
@@ -49,7 +48,7 @@ export const AboutStyled = styled.section`
   }
 
   .about-education__titulation {
-    color: ${(props) => props.theme.colors.yellow};
+    color: ${(props) => props.theme.colors.aboutBlue};
   }
 
   .about_article {

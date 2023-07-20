@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 
 export const HeroStyled = styled.section`
   padding: 30px;
-  background-color: ${(props) => props.theme.colors.dark};
+  background-color: ${(props) => props.theme.colors.darkBackground};
   min-height: 100vh;
 
   .hero {
@@ -10,7 +10,7 @@ export const HeroStyled = styled.section`
   }
 
   .hero_subheading {
-    color: ${(props) => props.theme.colors.yellow};
+    color: ${(props) => props.theme.colors.primaryText};
     font-weight: 600;
     margin: 0px;
     text-align: start;
@@ -18,7 +18,7 @@ export const HeroStyled = styled.section`
   }
 
   .hero_name {
-    color: ${(props) => props.theme.colors.bluesky};
+    color: ${(props) => props.theme.colors.secondaryText};
     font-size: 3.8rem;
     margin: 0px;
     padding-top: 20px;
@@ -31,13 +31,15 @@ export const HeroStyled = styled.section`
     font-size: 2.3rem;
     font-weight: 400;
     margin: 0px;
+    font-family: ${(props) => props.theme.fonts.primary};
   }
   .hero_text {
-    color: ${(props) => props.theme.colors.yellow};
+    color: ${(props) => props.theme.colors.primaryText};
     font-weight: 500;
     padding-top: 10px;
     text-align: left;
     font-size: 20px;
+    padding-bottom: 30px;
   }
 `;
 
