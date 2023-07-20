@@ -8,9 +8,12 @@ const theme: DefaultTheme = {
     yellow: "rgb(236, 121, 85)",
     light: "#FFFFFF",
     dark: "#000000",
-    title: " #A41414",
     bluesky: "#55b5fa",
     aboutBlue: "rgb(61, 90, 128)",
+    darkBackground: "#1F1A26",
+    lightBackground: "#D1C7E0",
+    primaryText: "#EAE6F3",
+    secondaryText: " #BAAED2",
   },
 
   fonts: {
