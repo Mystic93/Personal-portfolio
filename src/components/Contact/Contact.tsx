@@ -24,7 +24,7 @@ const Contact = (): React.ReactElement => {
             data-aos-offset="550"
           >
             I am always on the lookout for exciting opportunities. Whether you
-            want to say hello or have any questions, my inbox is open and ready
+            want to say hello or have any questions my inbox is open and ready
             to connect.
           </p>
 
