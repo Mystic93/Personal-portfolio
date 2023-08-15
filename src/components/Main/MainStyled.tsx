@@ -15,7 +15,6 @@ const zoomInOutAnimation = keyframes`
 export const MainStyled = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
   min-height: 100vh;
 
   .scroll-button {
@@ -41,5 +40,11 @@ export const MainStyled = styled.div`
     display: flex;
     position: fixed;
     bottom: 30px;
+    @media (min-width: 900px) {
+      width: 50px;
+      height: 50px;
+      bottom: 80px;
+      right: 80px;
+    }
   }
 `;

@@ -8,9 +8,12 @@ declare module "styled-components" {
       yellow: string;
       light: string;
       dark: string;
-      title: string;
       bluesky: string;
       aboutBlue: string;
+      lightBackground: string;
+      darkBackground: string;
+      primaryText: string;
+      secondaryText: string;
     };
 
     fonts: {

@@ -2,6 +2,7 @@ import Aos from "aos";
 import { HeroStyled, Name, Dot } from "./HeroStyled";
 import { useEffect } from "react";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
+import Navbar from "../Navbar/Navbar";
 
 const Hero = (): React.ReactElement => {
   useEffect(() => {
@@ -11,6 +12,7 @@ const Hero = (): React.ReactElement => {
   return (
     <HeroStyled>
       <BurgerMenu />
+      <Navbar />
 
       <div className="hero">
         <p data-aos="fade-down" className="hero_subheading">
@@ -20,12 +22,12 @@ const Hero = (): React.ReactElement => {
           Pol Gil Usieto<Dot>.</Dot>
         </Name>
         <h2 className="hero_title" data-aos="fade-right">
-          I create stuff for the web
+          I create stuff for the web.
         </h2>
 
         <p data-aos="fade-up" className="hero_text">
-          I am a software engineer, who loves to find new ways of solving
-          problems while building great digital experiences.
+          I am a passionate software engineer, dedicated to discovering
+          innovative solutions while crafting exceptional digital experiences.
         </p>
       </div>
     </HeroStyled>
