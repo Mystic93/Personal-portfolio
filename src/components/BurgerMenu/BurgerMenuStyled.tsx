@@ -9,7 +9,9 @@ export const MenuButton = styled.div`
   cursor: pointer;
   position: absolute;
   right: 20px;
-
+  @media (min-width: 900px) {
+    display: none;
+  }
   div {
     width: 30px;
     height: 3px;
@@ -33,6 +35,9 @@ export const MenuLinks = styled.div<{ open: boolean }>`
   background-color: ${(props) => props.theme.colors.lightBackground};
   z-index: 1;
   border-radius: 5px;
+  @media (min-width: 900px) {
+    display: none;
+  }
   a {
     text-decoration: none;
     color: ${(props) => props.theme.colors.aboutBlue};
