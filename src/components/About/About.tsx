@@ -30,15 +30,17 @@ const About = (): React.ReactElement => {
           data-aos="fade-left"
         >
           With a focus on testing and clean code principles, I prioritize
-          maintainability and scalability in all my projects..
+          maintainability and scalability in all my projects.
         </article>
-
-        <img
-          data-aos="fade-left"
-          className="hero_picture"
-          src="./images/pol.webp"
-          alt="Pol smiling"
-        />
+        <div className="about_picture">
+          {" "}
+          <img
+            data-aos="fade-left"
+            className="hero_picture"
+            src="./images/pol.webp"
+            alt="Pol smiling"
+          />
+        </div>
 
         <section className="about_education" data-aos="fade-right">
           <img
@@ -76,6 +78,7 @@ const About = (): React.ReactElement => {
           {techStack.map((stack) => {
             return (
               <img
+                className="tech-icons"
                 key={stack}
                 height={60}
                 alt={`${stack} logo`}
