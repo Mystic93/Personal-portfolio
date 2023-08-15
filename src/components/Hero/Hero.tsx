@@ -2,6 +2,7 @@ import Aos from "aos";
 import { HeroStyled, Name, Dot } from "./HeroStyled";
 import { useEffect } from "react";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
+import Navbar from "../Navbar/Navbar";
 
 const Hero = (): React.ReactElement => {
   useEffect(() => {
@@ -11,6 +12,7 @@ const Hero = (): React.ReactElement => {
   return (
     <HeroStyled>
       <BurgerMenu />
+      <Navbar />
 
       <div className="hero">
         <p data-aos="fade-down" className="hero_subheading">
