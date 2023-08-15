@@ -10,11 +10,19 @@ const Contact = (): React.ReactElement => {
   return (
     <ContactStyled>
       <div className="contact-container">
-        <h1 className="contact-container__title" data-aos="fade-left">
+        <h1
+          className="contact-container__title"
+          data-aos="fade-left"
+          data-aos-offset="500"
+        >
           Contact
         </h1>
         <article className="contact-article">
-          <p className="contact-article__presentation" data-aos="fade-left">
+          <p
+            className="contact-article__presentation"
+            data-aos="fade-left"
+            data-aos-offset="550"
+          >
             I am always on the lookout for exciting opportunities. Whether you
             want to say hello or have any questions, my inbox is open and ready
             to connect.
