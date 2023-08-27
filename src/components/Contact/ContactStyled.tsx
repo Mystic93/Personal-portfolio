@@ -48,7 +48,7 @@ export const ContactStyled = styled.section`
         text-align: center;
       }
       @media (min-width: 1200px) {
-        font-size: 3.2rem;
+        font-size: 2.2rem;
         text-align: center;
       }
     }
