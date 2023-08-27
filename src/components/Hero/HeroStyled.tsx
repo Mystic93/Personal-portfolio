@@ -35,7 +35,7 @@ export const HeroStyled = styled.section`
     }
     @media (min-width: 1300px) {
       margin-left: 100px;
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
   }
 
@@ -62,7 +62,7 @@ export const HeroStyled = styled.section`
 
     @media (min-width: 1300px) {
       margin-left: 100px;
-      font-size: 11rem;
+      font-size: 7rem;
     }
   }
 
@@ -114,7 +114,7 @@ export const HeroStyled = styled.section`
     }
     @media (min-width: 1300px) {
       margin-left: 100px;
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
   }
 `;
