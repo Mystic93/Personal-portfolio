@@ -56,7 +56,7 @@ export const ProjectsStyled = styled.section`
     align-items: center;
     @media (min-width: 900px) {
       padding-bottom: 50px;
-      padding-top: 100px;
+      padding-top: 240px;
     }
     &__info {
       color: ${(props) => props.theme.colors.yellow};
@@ -109,14 +109,14 @@ export const ProjectsStyled = styled.section`
     &__picture {
       border-radius: 8%;
       @media (min-width: 900px) {
-        width: 300px;
-        height: 600px;
+        width: 200px;
+        height: 400px;
       }
     }
     &__picture2 {
       border-radius: 8%;
-      width: 300px;
-      height: 600px;
+      width: 200px;
+      height: 400px;
       @media (max-width: 899px) {
         display: none;
       }
