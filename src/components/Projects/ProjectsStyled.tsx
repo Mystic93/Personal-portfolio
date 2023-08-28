@@ -56,7 +56,7 @@ export const ProjectsStyled = styled.section`
     align-items: center;
     @media (min-width: 900px) {
       padding-bottom: 50px;
-      padding-top: 240px;
+      padding-top: 239px;
     }
     &__info {
       color: ${(props) => props.theme.colors.yellow};
