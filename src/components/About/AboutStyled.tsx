@@ -157,7 +157,7 @@ export const AboutStyled = styled.section`
     border-radius: 20%;
     padding: 20px;
     @media (min-width: 900px) {
-      width: 600px;
+      width: 350px;
     }
   }
 `;
