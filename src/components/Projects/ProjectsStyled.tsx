@@ -32,7 +32,7 @@ export const ProjectsStyled = styled.section`
     @media (min-width: 900px) {
       position: absolute;
       top: 1px;
-      right: 670px;
+      right: 400px;
     }
   }
 
@@ -128,7 +128,7 @@ export const ProjectsStyled = styled.section`
       align-self: end;
       position: absolute;
       top: 50px;
-      right: 400px;
+      right: 140px;
       position: absolute;
     }
   }
@@ -155,7 +155,7 @@ export const ProjectsStyled = styled.section`
     @media (min-width: 900px) {
       position: absolute;
       top: 500px;
-      right: 780px;
+      right: 400px;
     }
   }
 `;
