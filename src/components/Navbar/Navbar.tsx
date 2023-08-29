@@ -1,6 +1,11 @@
 import { Link } from "react-scroll";
 import Button from "../Button/Button";
 import NavBarStyled from "./NavbarStyled";
+import { url } from "../../utils/utils";
+
+const handleOnClick = () => {
+  window.location.href = url;
+};
 
 const Navbar = (): React.ReactElement => {
   return (
@@ -30,7 +35,11 @@ const Navbar = (): React.ReactElement => {
         >
           Contact
         </Link>
-        <Button className="navbar-container__button" text="Resume" />
+        <Button
+          className="navbar-container__button"
+          text="Resume"
+          onClick={handleOnClick}
+        />
       </ul>
     </NavBarStyled>
   );

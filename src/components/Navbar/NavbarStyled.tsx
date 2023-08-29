@@ -35,6 +35,10 @@ const NavBarStyled = styled.nav`
       padding-bottom: 50px;
       padding-left: 20px;
       padding-right: 150px;
+      cursor: pointer;
+      &:hover {
+        color: ${(props) => props.theme.colors.dark};
+      }
     }
   }
 `;

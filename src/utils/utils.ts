@@ -13,3 +13,6 @@ export const techStack: Array<string> = [
   "html5",
   "github",
 ];
+
+export const url =
+  "https://drive.google.com/file/d/1-xFS4tDm_7ZXsJb4MJKGsAL-jwZi6uzK/view";
