@@ -2,6 +2,11 @@ import { Link } from "react-scroll";
 import Button from "../Button/Button";
 import { MenuButton, MenuLinks } from "./BurgerMenuStyled";
 import { useState } from "react";
+import { url } from "../../utils/utils";
+
+const handleOnClick = () => {
+  window.location.href = url;
+};
 
 const BurgerMenu = (): React.ReactElement => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,7 +35,11 @@ const BurgerMenu = (): React.ReactElement => {
         <Link to="contact" smooth={true} onClick={() => setIsOpen(false)}>
           Contact
         </Link>
-        <Button text="RESUME " className="burger-button" />
+        <Button
+          text="RESUME "
+          className="burger-button"
+          onClick={handleOnClick}
+        />
       </MenuLinks>
     </>
   );

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const ButtonStyled = styled.button`
-  background-color: ${(props) => props.theme.colors.dark};
+  background-color: none;
   color: ${(props) => props.theme.colors.light};
   border-radius: 40px;
   width: 100px;
