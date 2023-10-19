@@ -1,7 +1,7 @@
 import { DefaultTheme } from "styled-components";
 import "@fontsource/pirata-one";
 
-const theme: DefaultTheme = {
+const lightTheme: DefaultTheme = {
   colors: {
     primary: "#E9CDB3",
     secondary: "#D0A37A",
@@ -22,4 +22,24 @@ const theme: DefaultTheme = {
   },
 };
 
-export default theme;
+export const darkTheme: DefaultTheme = {
+  colors: {
+    primary: "#2E77D0",
+    secondary: "#FF6B6B",
+    yellow: "#F4D35E",
+    light: "#1A1A1A",
+    dark: "#FFFFFF",
+    bluesky: "#007BFF",
+    aboutBlue: "#4A90E2",
+    darkBackground: "#121212",
+    lightBackground: "#2E2E2E",
+    primaryText: "#FFFFFF",
+    secondaryText: "#A6A6A6",
+  },
+  fonts: {
+    primary: "Pirata One",
+    secondary: "Poppins",
+  },
+};
+
+export default lightTheme;
