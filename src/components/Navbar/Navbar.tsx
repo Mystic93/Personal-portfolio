@@ -6,11 +6,27 @@ import { url } from "../../utils/utils";
 const handleOnClick = () => {
   window.location.href = url;
 };
+interface NavbarProps {
+  themeAction: () => void;
+}
 
-const Navbar = (): React.ReactElement => {
+const Navbar = ({ themeAction }: NavbarProps): React.ReactElement => {
   return (
     <NavBarStyled>
       <ul className="navbar-container">
+        <div className="switch">
+          <label htmlFor="burger-menu"> </label>
+          <input
+            onClick={themeAction}
+            type="checkbox"
+            className="switch__toggler"
+            id="burger-menu"
+            name="burger-menu"
+            readOnly
+          />
+
+          <div className="switch__button" />
+        </div>
         <Link
           className="navbar-container__links"
           to="about"
